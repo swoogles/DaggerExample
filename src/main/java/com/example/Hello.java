@@ -10,7 +10,8 @@ class Hello {
         ShippingSystemDependencies dependencies = dependencyProvider.dependencies();
         ShippingSystem completedShippingSystem = new ShippingSystem(dependencies);
         int groundMiles = 20;
-        double totalCost = completedShippingSystem.transport(groundMiles);
+        int airMiles = 10;
+        double totalCost = completedShippingSystem.transport(groundMiles, airMiles);
         System.out.println("totalCost: " + totalCost);
     }
 }

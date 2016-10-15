@@ -11,4 +11,8 @@ class PrimitiveModule {
         return new Courier();
     }
 
+    @Provides
+    static AirTransportation provideAirTransportation() {
+        return new BicycleCopter();
+    }
 }

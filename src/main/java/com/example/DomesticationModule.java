@@ -11,4 +11,8 @@ class DomesticationModule {
         return new Horse();
     }
 
+    @Provides
+    static AirTransportation provideAirTransportation() {
+        return new GoldenEagle();
+    }
 }
