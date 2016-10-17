@@ -8,7 +8,9 @@ class DaggerShippingExample {
         ShippingSystem completedShippingSystem = new ShippingSystem(dependencies);
         int groundMiles = 20;
         int airMiles = 10;
-        double totalCost = completedShippingSystem.transport(groundMiles, airMiles);
+        int numTransfers = 10;
+        int numPackages = 5;
+        double totalCost = completedShippingSystem.transport(groundMiles, airMiles, numTransfers, numPackages);
         System.out.println("totalCost: " + totalCost);
     }
 }

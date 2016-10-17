@@ -18,9 +18,7 @@ public class ShippingSystem {
       this.packingSystem = dependencies.packingSystem;
     }
 
-    double transport(int groundMiles, int airMiles) {
-        int numTransfers = 10;
-        int numPackages = 5;
+    double transport(int groundMiles, int airMiles, int numTransfers, int numPackages) {
         return
                 groundTransportation.transport(groundMiles)
                 + airTransportation.transport(airMiles)
