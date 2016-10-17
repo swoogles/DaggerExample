@@ -8,7 +8,7 @@ import dagger.Provides;
 import dagger.Module;
 
 @Module
-class DomesticationModule {
+public class DomesticationModule {
 
     @Provides
     static GroundTransportation provideGroundTransportation() {
