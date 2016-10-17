@@ -1,6 +1,6 @@
-package com.example;
+package com.example.transportation;
 
-public class GoldenEagle implements AirTransportation {
+public class Horse implements GroundTransportation {
     double mileage = 50.0;
 
     public double transport(int distance) {

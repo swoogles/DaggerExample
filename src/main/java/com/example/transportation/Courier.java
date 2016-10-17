@@ -1,4 +1,4 @@
-package com.example;
+package com.example.transportation;
 
 public class Courier implements GroundTransportation {
     double mileage = 100;

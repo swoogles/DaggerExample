@@ -1,4 +1,4 @@
-package com.example;
+package com.example.transportation;
 
 public interface GroundTransportation extends ModeOfTransportation {
     double transport(int distance);

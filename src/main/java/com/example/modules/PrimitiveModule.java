@@ -1,10 +1,14 @@
-package com.example;
+package com.example.modules;
 
+import com.example.transportation.AirTransportation;
+import com.example.transportation.BicycleCopter;
+import com.example.transportation.Courier;
+import com.example.transportation.GroundTransportation;
 import dagger.Provides;
 import dagger.Module;
 
 @Module
-class PrimitiveModule {
+public class PrimitiveModule {
 
     @Provides
     static GroundTransportation provideGroundTransportation() {

@@ -10,17 +10,3 @@ public abstract class RoutingSystem {
     }
 }
 
-class HumanRouters extends RoutingSystem {
-    private int transferPenalty = 2;
-    private double shrinkageFactor = 1.3;
-}
-
-class MonkeyRouters extends RoutingSystem {
-    private int transferPenalty = 1;
-    private double shrinkageFactor = 2.0;
-}
-
-class ComputerRouters extends RoutingSystem {
-    private int transferPenalty = 5;
-    private double shrinkageFactor = 1.0;
-}
